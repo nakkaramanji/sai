@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project k</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body style="background: #bbb8af ;">
+    <div class="container">
+        <div class="image">
+            
+             <h1 id="demo">Puri jagannadh</h1> 
+            
+           <img src="./puri.jpg" alt="prabhas white shirt ">
+           <button class="s" onclick="yellow()">click</button>
+        </div>
+        <div class="image">
+             <h1 id="ram">prabhas</h1> 
+            <img src="./prabhas3.jpg" alt="prabhas white shirt ">
+            <button onclick="green()">click</button>
+         </div>
+         <div class="image">
+             <h1 id="dinesh">Sai pallavi</h1> 
+            <img src="./saipallavi.jpg" alt="prabhas white shirt ">
+            <button onclick="blue()">click</button>
+         </div>
+         <script>
+           function yellow(){
+            document.body.style.background ="#484746";
+            document.getElementById('demo').style.color="#ffbfaa"
+           }
+           function green(){
+            document.body.style.background ="#232f3e";
+            document.getElementById('ram').style.color="#ffece0"
+           }
+           function blue(){
+            document.body.style.background ="#485769";
+            document.getElementById('dinesh').style.color="#ffcb47"
+           }
+         </script>
+         
+         
+    </div>
+</body>
+</html>
